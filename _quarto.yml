@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "hacksite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cyborg
+      - brand
+    css: styles.css
+    toc: true
+
+
+
